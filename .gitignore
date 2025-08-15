@@ -1,0 +1,17 @@
+venv/
+.env
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+*.csv
+*.tar.gz
+*-Copy1.ipynb
+*.csv.gz
+*.jsonl.gz
+*.jsonl
+*.zip
+TM3_SIFMAIndex2025-06-10T14_35_00.000-04_00
