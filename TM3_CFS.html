@@ -7697,13 +7697,13 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Step-2:-Query-for-specific-Date-using-modifiedSince-and-pageSize=100-to-limit-data-return%3C---Recommended-One">Step 2: Query for specific Date using modifiedSince and pageSize=100 to limit data return&lt;-- Recommended One<a class="anchor-link" href="#Step-2:-Query-for-specific-Date-using-modifiedSince-and-pageSize=100-to-limit-data-return%3C---Recommended-One">¶</a></h3><p>Now we come to getting the <code>FileSets</code> information.  The <code>modifiedSince</code> parameter can help an application to limit the returned File-Set only for the File-Set that has been modified after a specified time.</p>
-<p>The application needs to send an HTTP <code>GET</code> request to the RDP <code>/file-store/v1/file-sets?bucket=buck-Custom&amp;packageId={packageId}&amp;pageSize=100</code> endpoint to list <strong>the first</strong> 100 FileSets under the input <code>bucket-name</code> and <code>packageId</code> that has been modified since <code>modifiedSince</code> as follows.</p>
+<p>The application needs to send an HTTP <code>GET</code> request to the RDP <code>/file-store/v1/file-sets?bucket=buck-Custom&amp;packageId={packageId}&amp;pageSize=100&amp;modifiedSince={datetime}</code> endpoint to list <strong>the first</strong> 100 FileSets under the input <code>bucket-name</code> and <code>packageId</code> that has been modified since <code>modifiedSince</code> as follows.</p>
 <div class="highlight"><pre><span></span><span class="nf">GET</span> <span class="nn">/file-store/v1/file-sets?bucket={bucket-name}&amp;packageId={packageId}&amp;modifiedSince={datetime}&amp;pageSize=100</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
 <span class="na">Host</span><span class="o">:</span> <span class="l">api.refinitiv.com</span>
 <span class="na">Authorization</span><span class="o">:</span> <span class="l">Bearer &lt;Access Token&gt;</span>
 </pre></div>
 <p>Example:</p>
-<div class="highlight"><pre><span></span><span class="nf">GET</span> <span class="nn">/file-store/v1/file-sets?bucket=bulk-ESG&amp;packageId=4288-ebb6-93372235-acb2-89882a826af1&amp;pageSize=100&amp;modifiedSince=2022-01-26T00:00:00Z</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<div class="highlight"><pre><span></span><span class="nf">GET</span> <span class="nn">/file-store/v1/file-sets?bucket=bulk-Custom&amp;packageId=xxxx-bbbb-yyy-aaaa&amp;pageSize=100&amp;modifiedSince=2025-08-20T00:00:00Z</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
 <span class="na">Host</span><span class="o">:</span> <span class="l">api.refinitiv.com</span>
 <span class="na">Authorization</span><span class="o">:</span> <span class="l">Bearer &lt;Access Token&gt;</span>
 </pre></div>
