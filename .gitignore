@@ -14,4 +14,5 @@ ipython_config.py
 *.jsonl.gz
 *.jsonl
 *.zip
-TM3_SIFMAIndex2025-06-10T14_35_00.000-04_00
+TM3_SIFMAIndex*
+TESTDEVDATALIBRARY*

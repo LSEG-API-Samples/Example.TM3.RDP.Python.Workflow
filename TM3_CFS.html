@@ -7621,7 +7621,7 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#step 1 - get RDP Access Token from RDP</span>
@@ -7734,7 +7734,7 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#step 2 - list FileSets from bucket name and package Id and modifiedSince</span>
@@ -7787,16 +7787,120 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=9b9a3aa9-d181-498e-8563-48c21a4c18a8">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9b9a3aa9-d181-498e-8563-48c21a4c18a8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">fileSet_response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s1">'value'</span><span class="p">],</span> <span class="n">sort_keys</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">separators</span><span class="o">=</span><span class="p">(</span><span class="s1">','</span><span class="p">,</span> <span class="s1">':'</span><span class="p">)))</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>[
+  {
+    "attributes":[],
+    "availableFrom":"2025-09-11T13:01:32Z",
+    "availableTo":"2026-03-11T13:01:32Z",
+    "bucketName":"bulk-custom",
+    "contentFrom":"2025-09-11T11:00:00Z",
+    "contentTo":"2025-09-11T13:00:00Z",
+    "created":"2025-09-11T13:01:32Z",
+    "files":[
+      "4267-a4de-807e4752-986f-43fd7eb2c26e"
+    ],
+    "id":"4209-0738-ec37e8ea-bdd1-0cbea8789282",
+    "modified":"2025-09-11T13:01:35Z",
+    "name":"TESTDEVDATALIBRARY2025-09-11T09:00:00.000-04:00",
+    "numFiles":1,
+    "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+    "status":"READY"
+  },
+  {
+    "attributes":[],
+    "availableFrom":"2025-09-11T15:01:21Z",
+    "availableTo":"2026-03-11T15:01:21Z",
+    "bucketName":"bulk-custom",
+    "contentFrom":"2025-09-11T13:00:00Z",
+    "contentTo":"2025-09-11T15:00:00Z",
+    "created":"2025-09-11T15:01:21Z",
+    "files":[
+      "41ca-9773-85373e58-9b2b-86c4abf7e8c7"
+    ],
+    "id":"4ce0-46e0-4f16b7e1-b32b-68697d37f439",
+    "modified":"2025-09-11T15:01:25Z",
+    "name":"TESTDEVDATALIBRARY2025-09-11T11:00:00.000-04:00",
+    "numFiles":1,
+    "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+    "status":"READY"
+  },
+  {
+    "attributes":[],
+    "availableFrom":"2025-09-11T17:01:44Z",
+    "availableTo":"2026-03-11T17:01:44Z",
+    "bucketName":"bulk-custom",
+    "contentFrom":"2025-09-11T15:00:00Z",
+    "contentTo":"2025-09-11T17:00:00Z",
+    "created":"2025-09-11T17:01:44Z",
+    "files":[
+      "4a3b-3b0b-7975adbb-9966-6252ef25abd8"
+    ],
+    "id":"4021-725e-26f2f503-ae1d-0321fb98ad55",
+    "modified":"2025-09-11T17:01:47Z",
+    "name":"TESTDEVDATALIBRARY2025-09-11T13:00:00.000-04:00",
+    "numFiles":1,
+    "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+    "status":"READY"
+  },
+  {
+    "attributes":[],
+    "availableFrom":"2025-09-11T19:01:47Z",
+    "availableTo":"2026-03-11T19:01:46Z",
+    "bucketName":"bulk-custom",
+    "contentFrom":"2025-09-11T17:00:00Z",
+    "contentTo":"2025-09-11T19:00:00Z",
+    "created":"2025-09-11T19:01:47Z",
+    "files":[
+      "4d75-14c8-dfd6d7fc-bcd2-09734ac41133"
+    ],
+    "id":"484c-1f65-4653d00d-aedc-97615c20832d",
+    "modified":"2025-09-11T19:01:49Z",
+    "name":"TESTDEVDATALIBRARY2025-09-11T15:00:00.000-04:00",
+    "numFiles":1,
+    "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+    "status":"READY"
+  },
+  {
+    "attributes":[],
+    "availableFrom":"2025-09-11T21:01:48Z",
+    "availableTo":"2026-03-11T21:01:48Z",
+    "bucketName":"bulk-custom",
+    "contentFrom":"2025-09-11T19:00:00Z",
+    "contentTo":"2025-09-11T21:00:00Z",
+    "created":"2025-09-11T21:01:48Z",
+    "files":[
+      "4d68-8508-0ed07a78-be28-e11c36e5dc59"
+    ],
+    "id":"452f-8902-902443cc-89f6-c80f50c86ae0",
+    "modified":"2025-09-11T21:01:51Z",
+    "name":"TESTDEVDATALIBRARY2025-09-11T17:00:00.000-04:00",
+    "numFiles":1,
+    "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+    "status":"READY"
+  }
+]
+</pre>
 </div>
 </div>
 </div>
@@ -7813,18 +7917,31 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6150a9c0-a413-4999-a2e7-0aabe1647b4f">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6150a9c0-a413-4999-a2e7-0aabe1647b4f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># try just one file</span>
 <span class="n">file_id</span> <span class="o">=</span> <span class="n">fileSet_response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s1">'value'</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">'files'</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">file_id</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>4267-a4de-807e4752-986f-43fd7eb2c26e
+</pre>
 </div>
 </div>
 </div>
@@ -7848,7 +7965,7 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#step 2.5 - list FileSets from bucket name and package Id</span>
@@ -7902,16 +8019,120 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=11203945">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=11203945">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">fileSet_response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s1">'value'</span><span class="p">],</span> <span class="n">sort_keys</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">separators</span><span class="o">=</span><span class="p">(</span><span class="s1">','</span><span class="p">,</span> <span class="s1">':'</span><span class="p">)))</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>[
+  {
+    "attributes":[],
+    "availableFrom":"2025-09-11T17:01:44Z",
+    "availableTo":"2026-03-11T17:01:44Z",
+    "bucketName":"bulk-custom",
+    "contentFrom":"2025-09-11T15:00:00Z",
+    "contentTo":"2025-09-11T17:00:00Z",
+    "created":"2025-09-11T17:01:44Z",
+    "files":[
+      "4a3b-3b0b-7975adbb-9966-6252ef25abd8"
+    ],
+    "id":"4021-725e-26f2f503-ae1d-0321fb98ad55",
+    "modified":"2025-09-11T17:01:47Z",
+    "name":"TESTDEVDATALIBRARY2025-09-11T13:00:00.000-04:00",
+    "numFiles":1,
+    "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+    "status":"READY"
+  },
+  {
+    "attributes":[],
+    "availableFrom":"2025-09-11T13:01:32Z",
+    "availableTo":"2026-03-11T13:01:32Z",
+    "bucketName":"bulk-custom",
+    "contentFrom":"2025-09-11T11:00:00Z",
+    "contentTo":"2025-09-11T13:00:00Z",
+    "created":"2025-09-11T13:01:32Z",
+    "files":[
+      "4267-a4de-807e4752-986f-43fd7eb2c26e"
+    ],
+    "id":"4209-0738-ec37e8ea-bdd1-0cbea8789282",
+    "modified":"2025-09-11T13:01:35Z",
+    "name":"TESTDEVDATALIBRARY2025-09-11T09:00:00.000-04:00",
+    "numFiles":1,
+    "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+    "status":"READY"
+  },
+  {
+    "attributes":[],
+    "availableFrom":"2025-09-11T21:01:48Z",
+    "availableTo":"2026-03-11T21:01:48Z",
+    "bucketName":"bulk-custom",
+    "contentFrom":"2025-09-11T19:00:00Z",
+    "contentTo":"2025-09-11T21:00:00Z",
+    "created":"2025-09-11T21:01:48Z",
+    "files":[
+      "4d68-8508-0ed07a78-be28-e11c36e5dc59"
+    ],
+    "id":"452f-8902-902443cc-89f6-c80f50c86ae0",
+    "modified":"2025-09-11T21:01:51Z",
+    "name":"TESTDEVDATALIBRARY2025-09-11T17:00:00.000-04:00",
+    "numFiles":1,
+    "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+    "status":"READY"
+  },
+  {
+    "attributes":[],
+    "availableFrom":"2025-09-11T19:01:47Z",
+    "availableTo":"2026-03-11T19:01:46Z",
+    "bucketName":"bulk-custom",
+    "contentFrom":"2025-09-11T17:00:00Z",
+    "contentTo":"2025-09-11T19:00:00Z",
+    "created":"2025-09-11T19:01:47Z",
+    "files":[
+      "4d75-14c8-dfd6d7fc-bcd2-09734ac41133"
+    ],
+    "id":"484c-1f65-4653d00d-aedc-97615c20832d",
+    "modified":"2025-09-11T19:01:49Z",
+    "name":"TESTDEVDATALIBRARY2025-09-11T15:00:00.000-04:00",
+    "numFiles":1,
+    "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+    "status":"READY"
+  },
+  {
+    "attributes":[],
+    "availableFrom":"2025-09-11T15:01:21Z",
+    "availableTo":"2026-03-11T15:01:21Z",
+    "bucketName":"bulk-custom",
+    "contentFrom":"2025-09-11T13:00:00Z",
+    "contentTo":"2025-09-11T15:00:00Z",
+    "created":"2025-09-11T15:01:21Z",
+    "files":[
+      "41ca-9773-85373e58-9b2b-86c4abf7e8c7"
+    ],
+    "id":"4ce0-46e0-4f16b7e1-b32b-68697d37f439",
+    "modified":"2025-09-11T15:01:25Z",
+    "name":"TESTDEVDATALIBRARY2025-09-11T11:00:00.000-04:00",
+    "numFiles":1,
+    "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+    "status":"READY"
+  }
+]
+</pre>
 </div>
 </div>
 </div>
@@ -7932,31 +8153,18 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9034c455">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=9034c455">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="s1">'@nextLink'</span> <span class="ow">in</span> <span class="n">fileSet_response</span><span class="o">.</span><span class="n">json</span><span class="p">():</span>
     <span class="n">next_link</span> <span class="o">=</span> <span class="n">fileSet_response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s1">'@nextLink'</span><span class="p">]</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">next_link</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>/file-store/v1/file-sets?bucket=bulk-Custom&amp;packageId=4a2f-a444-b1f4a145-b0f9-4509ed361868&amp;pageSize=100&amp;skipToken=ZmlsZXNldElkPTQwZDQtNDIwMC03NmJlNWE3NS05OTVmLWU0NGM0OTU1MTM4MQ
-</pre>
 </div>
 </div>
 </div>
@@ -7972,12 +8180,12 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a50dfe9b">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a50dfe9b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="s1">'@nextLink'</span> <span class="ow">in</span> <span class="n">fileSet_response</span><span class="o">.</span><span class="n">json</span><span class="p">():</span>
@@ -7999,6 +8207,20 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=74ddda59-e614-46b9-9dcb-e93eb8fa2b73">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">fileSet_response</span><span class="o">.</span><span class="n">json</span><span class="p">(),</span> <span class="n">sort_keys</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">separators</span><span class="o">=</span><span class="p">(</span><span class="s1">','</span><span class="p">,</span> <span class="s1">':'</span><span class="p">)))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
@@ -8006,22 +8228,101 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Receive list Package IDs from RDP APIs
+<pre>{
+  "value":[
+    {
+      "attributes":[],
+      "availableFrom":"2025-09-11T17:01:44Z",
+      "availableTo":"2026-03-11T17:01:44Z",
+      "bucketName":"bulk-custom",
+      "contentFrom":"2025-09-11T15:00:00Z",
+      "contentTo":"2025-09-11T17:00:00Z",
+      "created":"2025-09-11T17:01:44Z",
+      "files":[
+        "4a3b-3b0b-7975adbb-9966-6252ef25abd8"
+      ],
+      "id":"4021-725e-26f2f503-ae1d-0321fb98ad55",
+      "modified":"2025-09-11T17:01:47Z",
+      "name":"TESTDEVDATALIBRARY2025-09-11T13:00:00.000-04:00",
+      "numFiles":1,
+      "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+      "status":"READY"
+    },
+    {
+      "attributes":[],
+      "availableFrom":"2025-09-11T13:01:32Z",
+      "availableTo":"2026-03-11T13:01:32Z",
+      "bucketName":"bulk-custom",
+      "contentFrom":"2025-09-11T11:00:00Z",
+      "contentTo":"2025-09-11T13:00:00Z",
+      "created":"2025-09-11T13:01:32Z",
+      "files":[
+        "4267-a4de-807e4752-986f-43fd7eb2c26e"
+      ],
+      "id":"4209-0738-ec37e8ea-bdd1-0cbea8789282",
+      "modified":"2025-09-11T13:01:35Z",
+      "name":"TESTDEVDATALIBRARY2025-09-11T09:00:00.000-04:00",
+      "numFiles":1,
+      "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+      "status":"READY"
+    },
+    {
+      "attributes":[],
+      "availableFrom":"2025-09-11T21:01:48Z",
+      "availableTo":"2026-03-11T21:01:48Z",
+      "bucketName":"bulk-custom",
+      "contentFrom":"2025-09-11T19:00:00Z",
+      "contentTo":"2025-09-11T21:00:00Z",
+      "created":"2025-09-11T21:01:48Z",
+      "files":[
+        "4d68-8508-0ed07a78-be28-e11c36e5dc59"
+      ],
+      "id":"452f-8902-902443cc-89f6-c80f50c86ae0",
+      "modified":"2025-09-11T21:01:51Z",
+      "name":"TESTDEVDATALIBRARY2025-09-11T17:00:00.000-04:00",
+      "numFiles":1,
+      "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+      "status":"READY"
+    },
+    {
+      "attributes":[],
+      "availableFrom":"2025-09-11T19:01:47Z",
+      "availableTo":"2026-03-11T19:01:46Z",
+      "bucketName":"bulk-custom",
+      "contentFrom":"2025-09-11T17:00:00Z",
+      "contentTo":"2025-09-11T19:00:00Z",
+      "created":"2025-09-11T19:01:47Z",
+      "files":[
+        "4d75-14c8-dfd6d7fc-bcd2-09734ac41133"
+      ],
+      "id":"484c-1f65-4653d00d-aedc-97615c20832d",
+      "modified":"2025-09-11T19:01:49Z",
+      "name":"TESTDEVDATALIBRARY2025-09-11T15:00:00.000-04:00",
+      "numFiles":1,
+      "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+      "status":"READY"
+    },
+    {
+      "attributes":[],
+      "availableFrom":"2025-09-11T15:01:21Z",
+      "availableTo":"2026-03-11T15:01:21Z",
+      "bucketName":"bulk-custom",
+      "contentFrom":"2025-09-11T13:00:00Z",
+      "contentTo":"2025-09-11T15:00:00Z",
+      "created":"2025-09-11T15:01:21Z",
+      "files":[
+        "41ca-9773-85373e58-9b2b-86c4abf7e8c7"
+      ],
+      "id":"4ce0-46e0-4f16b7e1-b32b-68697d37f439",
+      "modified":"2025-09-11T15:01:25Z",
+      "name":"TESTDEVDATALIBRARY2025-09-11T11:00:00.000-04:00",
+      "numFiles":1,
+      "packageId":"41c7-5071-e124b4b7-a663-0c40a5c74a6d",
+      "status":"READY"
+    }
+  ]
+}
 </pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=74ddda59-e614-46b9-9dcb-e93eb8fa2b73">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">fileSet_response</span><span class="o">.</span><span class="n">json</span><span class="p">(),</span> <span class="n">sort_keys</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">separators</span><span class="o">=</span><span class="p">(</span><span class="s1">','</span><span class="p">,</span> <span class="s1">':'</span><span class="p">)))</span>
-</pre></div>
 </div>
 </div>
 </div>
@@ -8073,7 +8374,7 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#step 3 - get file URL from file id</span>
@@ -8119,17 +8420,30 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=102a7e90">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=102a7e90">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">file_url</span> <span class="o">=</span> <span class="n">fileID_response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s1">'url'</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">file_url</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>https://a206464-bulk-custom.s3.amazonaws.com/GE-11328/2025/09/11/TESTDEVDATALIBRARY2025-09-11T09%3A00%3A00.000-04%3A00?x-request-Id=c1ddfd04-ac0f-4b32-9d5b-a1bf62b550f5&amp;x-package-id=41c7-5071-e124b4b7-a663-0c40a5c74a6d&amp;x-client-app-id=b4842f3904fb4a1fa18234796368799086c63541&amp;x-file-name=TESTDEVDATALIBRARY2025-09-11T09%3A00%3A00.000-04%3A00&amp;x-fileset-id=4209-0738-ec37e8ea-bdd1-0cbea8789282&amp;x-bucket-name=bulk-custom&amp;x-uuid=GESG1-43929&amp;x-file-Id=4267-a4de-807e4752-986f-43fd7eb2c26e&amp;x-fileset-name=TESTDEVDATALIBRARY2025-09-11T09%3A00%3A00.000-04%3A00&amp;x-event-external-name=cfs-claimCheck-download&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjELD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCEy0VL%2FNYMJxGo7QkHyiF8ncLe1V2RYR5G78x541NrVgIgTCXj1lNqr5YVhfO0AU%2FA2lKA82zpfLmfU5Sio7W6%2Fh4qmgIIKRAFGgw2NDIxNTcxODEzMjYiDHUjp1fitPO3remUYyr3AcEl82bBO0YYyIv%2BOZPr1zLC9b2h7N4Uv%2Fk8QxgksIDq%2Be%2FY0uVHbK6wUj%2F%2FSIbc2SiJa5eSvyvmQ0UoEmKYnClMwBb9k9yZ9QO%2FXl1RkSCNQXNkLc%2BhBFGc7lsNOa6LdrbV82dMuxXPlG2vQZfSnFq17urbYExN1l0rv1FZZpncR6nSLVTd5Tt4Fc3izetFGBOiasoYWt5BOrGqU5f7f%2BVpOXpSAWjeLL3gl13JyBbqnd0XmhT9iMkXTGy9As5rmGxsx55QG7T2IsmjXF7r7D57M1JQexHo9zIr64dKHxOuP07M9DHB01faK6oSq7YLRg9mqq8FV%2FEwr5uPxgY6nQEJeQevBgN%2FHP5aaEVVNB%2BneCnNTMy5dILi8LocYvcthTVRM6JGgVW3Zj6yULmuxUGguUu0gLPKld9ZYO0FN%2FV4HsQWwICEh4r7%2FRB1TssSL7iO%2BMGH%2FcDnEOHyzLeHCKI9CRM3RtjkL3ox9P%2BfK6cmlVvgRZIIWX1QML3HVDUTL%2FTuUAjkwN%2FZDwhtDVU8IpNv0OMNxkAFrMZw7FV6&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20250912T073719Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=21600&amp;X-Amz-Credential=ASIAZLA4M7GHCBS72KP5%2F20250912%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=15f2323cddecbc109b253355cd3904acf00fbe183b440fb85019999fdbc916ce
+</pre>
 </div>
 </div>
 </div>
@@ -8168,12 +8482,12 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=11a82c65-c02b-4be6-8dd0-6c48cdc98a59">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=11a82c65-c02b-4be6-8dd0-6c48cdc98a59">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#step 4 - Download file</span>
@@ -8198,6 +8512,35 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'RDP APIs: Request file failure: </span><span class="si">{</span><span class="n">bulkFile_response</span><span class="o">.</span><span class="n">status_code</span><span class="si">}</span><span class="s1"> </span><span class="si">{</span><span class="n">bulkFile_response</span><span class="o">.</span><span class="n">reason</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Text: </span><span class="si">{</span><span class="n">bulkFile_response</span><span class="o">.</span><span class="n">text</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Downloading File from https://a206464-bulk-custom.s3.amazonaws.com/GE-11328/2025/09/11/TESTDEVDATALIBRARY2025-09-11T09%3A00%3A00.000-04%3A00?x-request-Id=c1ddfd04-ac0f-4b32-9d5b-a1bf62b550f5&amp;x-package-id=41c7-5071-e124b4b7-a663-0c40a5c74a6d&amp;x-client-app-id=b4842f3904fb4a1fa18234796368799086c63541&amp;x-file-name=TESTDEVDATALIBRARY2025-09-11T09%3A00%3A00.000-04%3A00&amp;x-fileset-id=4209-0738-ec37e8ea-bdd1-0cbea8789282&amp;x-bucket-name=bulk-custom&amp;x-uuid=GESG1-43929&amp;x-file-Id=4267-a4de-807e4752-986f-43fd7eb2c26e&amp;x-fileset-name=TESTDEVDATALIBRARY2025-09-11T09%3A00%3A00.000-04%3A00&amp;x-event-external-name=cfs-claimCheck-download&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjELD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCEy0VL%2FNYMJxGo7QkHyiF8ncLe1V2RYR5G78x541NrVgIgTCXj1lNqr5YVhfO0AU%2FA2lKA82zpfLmfU5Sio7W6%2Fh4qmgIIKRAFGgw2NDIxNTcxODEzMjYiDHUjp1fitPO3remUYyr3AcEl82bBO0YYyIv%2BOZPr1zLC9b2h7N4Uv%2Fk8QxgksIDq%2Be%2FY0uVHbK6wUj%2F%2FSIbc2SiJa5eSvyvmQ0UoEmKYnClMwBb9k9yZ9QO%2FXl1RkSCNQXNkLc%2BhBFGc7lsNOa6LdrbV82dMuxXPlG2vQZfSnFq17urbYExN1l0rv1FZZpncR6nSLVTd5Tt4Fc3izetFGBOiasoYWt5BOrGqU5f7f%2BVpOXpSAWjeLL3gl13JyBbqnd0XmhT9iMkXTGy9As5rmGxsx55QG7T2IsmjXF7r7D57M1JQexHo9zIr64dKHxOuP07M9DHB01faK6oSq7YLRg9mqq8FV%2FEwr5uPxgY6nQEJeQevBgN%2FHP5aaEVVNB%2BneCnNTMy5dILi8LocYvcthTVRM6JGgVW3Zj6yULmuxUGguUu0gLPKld9ZYO0FN%2FV4HsQWwICEh4r7%2FRB1TssSL7iO%2BMGH%2FcDnEOHyzLeHCKI9CRM3RtjkL3ox9P%2BfK6cmlVvgRZIIWX1QML3HVDUTL%2FTuUAjkwN%2FZDwhtDVU8IpNv0OMNxkAFrMZw7FV6&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20250912T073719Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=21600&amp;X-Amz-Credential=ASIAZLA4M7GHCBS72KP5%2F20250912%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=15f2323cddecbc109b253355cd3904acf00fbe183b440fb85019999fdbc916ce ...
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>c:\Projects\Code\TM3_CFS_Simple\venv\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'a206464-bulk-custom.s3.amazonaws.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Download File Successfully
+TESTDEVDATALIBRARY2025-09-11T09_00_00.000-04_00 Saved
+</pre>
 </div>
 </div>
 </div>
@@ -8247,7 +8590,7 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#step 5 - Refreshing Token</span>
@@ -8337,7 +8680,7 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#step 7 - Revoking Token</span>
@@ -8382,6 +8725,20 @@ ALL EXAMPLE CODE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS FOR 
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=86692459">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=97a1eb6f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
